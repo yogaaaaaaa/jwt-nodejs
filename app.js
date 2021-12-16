@@ -9,7 +9,7 @@ app.use(express.json());
 
 //login goes here===================================
 
-const User = require("./model/user");
+const User = require("./models/User.js");
 
 //register
 app.post("/register", async (req, res) => {
